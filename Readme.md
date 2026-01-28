@@ -7,11 +7,6 @@
 
 A compact **4B-parameter model** enhanced with PoT achieves **49.71% accuracy on LiveCodeBench**, outperforming much larger commercial models like GPT-4o, Claude-4-Opus, and DeepSeek-V3.
 
-<p align="center">
-  <img src="assets/framework.png" alt="PoT Framework" width="80%">
-  <br>
-  <em>The Policy of Thoughts (PoT) Framework: A closed-loop reasoning system.</em>
-</p>
 
 ## 🚀 Key Features
 
@@ -31,10 +26,6 @@ A compact **4B-parameter model** enhanced with PoT achieves **49.71% accuracy on
 | Best Baseline (LATS) | 87.80 | 90.66 | 47.51 | 43.43 | 13.69 | 53.34 |
 | GPT-4o | 91.50 | 87.60 | 31.74 | 16.00 | 9.59 | 49.75 |
 
-### Model Scale vs. Performance on LiveCodeBench v6
-<p align="center">
-  <img src="assets/performance_vs_scale.png" alt="Performance vs Scale" width="70%">
-</p>
 
 Our tiny 4B model with PoT significantly outperforms models that are orders of magnitude larger.
 
