@@ -1,7 +1,7 @@
-
 # Policy of Thoughts (PoT)
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](PoT_COLM.pdf)
 
 **Policy of Thoughts (PoT)** is a novel test-time reasoning framework that enables Large Language Models (LLMs) to dynamically evolve their internal reasoning policy in real-time, inspired by Popper's epistemology of "conjectures and refutations". Instead of merely discarding failed attempts, PoT uses execution feedback to perform online optimization on a transient LoRA adapter, allowing even small models to achieve state-of-the-art performance on complex reasoning tasks.
 
@@ -34,21 +34,9 @@ Our tiny 4B model with PoT significantly outperforms models that are orders of m
 > **Note**: Code will be released soon! ⏳  
 > Stay tuned by watching this repository or checking back shortly.
 
-## 📚 Citation
-
-If you find this work useful in your research, please consider citing:
-
-```bibtex
-@article{anonymous2026policy,
-  title={Policy of Thoughts: Scaling LLM Reasoning via Test-time Policy Evolution},
-  author={Anonymous Authors},
-  journal={Under Review},
-  year={2026}
-}
-```
 
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
---- 
+---
