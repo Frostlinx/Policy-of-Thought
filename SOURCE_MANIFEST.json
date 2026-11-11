@@ -1,6 +1,6 @@
 {
   "sha256": {
-    ".github/workflows/tests.yml": "1d33264a8e936bc5487d4b6d14cf17571f9a3e08cbe581493f0522cf34b4cfd4",
+    ".github/workflows/tests.yml": "b42fb7fa3bb7b09ac2dbf34160d3e8b8ef826f84ec9637f6cfe0f6912a9cbba1",
     ".gitignore": "711e20b7899b3c324116fb0bfa84d9deb9383f94c3b45b742bda4f73fdbf9791",
     "assets/framework.png": "bdc712f5adcf580044c2ea8037b677873bc0fcf656aa8c99373ec22b4b7bdc42",
     "assets/pipeline.png": "c755e22a3915cade8ade975d98edc629e8a11af599b34188f80243f12d087174",
