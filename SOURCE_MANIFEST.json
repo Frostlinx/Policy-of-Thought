@@ -2,19 +2,20 @@
   "sha256": {
     ".github/workflows/tests.yml": "b42fb7fa3bb7b09ac2dbf34160d3e8b8ef826f84ec9637f6cfe0f6912a9cbba1",
     ".gitignore": "711e20b7899b3c324116fb0bfa84d9deb9383f94c3b45b742bda4f73fdbf9791",
+    "assets/adaptation-ablation.png": "eb74ae46ee97b02436ae34fd637d0c174bf09533187d9a7b7613f0cf0567866a",
     "assets/framework.png": "bdc712f5adcf580044c2ea8037b677873bc0fcf656aa8c99373ec22b4b7bdc42",
+    "assets/model-scale.png": "10a187e5738bfe7f0a0c8bd08b6e1ccb15d504ec24e69ed400b4195b847bd4ba",
     "assets/pipeline.png": "c755e22a3915cade8ade975d98edc629e8a11af599b34188f80243f12d087174",
     "CITATION.cff": "ec78763c953e4dc00d99008234f762e3892ee1749cc559127a7d6b7bfa8ff765",
-    "docs/BENCHMARKS_zh.md": "6217e16e008136e423370bd3177ac2bcea732d03f88a76bee81091de39485d5f",
-    "docs/COMPETITIONS_zh.md": "daeb7b4d2bd7ae00a9ab576458e21a054efbf3531b641871de9facca386b3041",
+    "docs/BENCHMARKS.md": "4ba22138eb6c79448b3d91e53959451fbb6d97d727c06770fd4b1e87fdba6a7c",
+    "docs/COMPETITIONS.md": "efc4ef9d799d518d31ec53e3486b7e691cbd4c7b936a0a70000da9aed3981276",
     "docs/METHOD.md": "2d58e47e042908f1eb3bb15ff491f5e4d02c5000ef243d41971fa226c8fe142c",
     "docs/original-prompt-provenance.json": "136b826224f733cd699f8bb3be36196422a682358e8e1b60f25837b311c71ca0",
     "docs/ORIGINAL_PROMPTS.md": "d4babd7d1752eeb26d4fe00d26514c024fcd85bc43af907ef39ca08ae8e61158",
-    "docs/PAPER_ALIGNMENT_zh.md": "b21b79581610d4dcebf12daa6735f5bd6a4ec66c3368bfcc64fdcb2c34bdc313",
     "docs/RELEASE.md": "0f98065012c4d637b043964154b015f9cf3e152557731498b78bd8c5bbf8cf7a",
     "docs/TRAJECTORY_LOSS.md": "85698cf93d90d20ec5eba0ff456367f5e955b2ed48f598766bb8407e299ba6da",
     "LICENSE": "c66f77a7b30cfb7f359be47dbb341fc736592bfeddce2111600557220bf6bb25",
-    "MANIFEST.in": "d3105d22ecee42aa1adf208779c3c55215481a9b08a2de2e62ce7523ce4bd032",
+    "MANIFEST.in": "dcc7357d9668b4c0f0815d047d7fcfcb9dd3c0c2f9b3026604378bebc7321fde",
     "pot/__init__.py": "94467d34dc32dc2e8d425e3abcaad360a524cdc7f3c60b17b38b08cc03cb7fed",
     "pot/backend.py": "6a40e41b4b514b8004ffa760eb491368bda362f6bac6bcb1fcbc0742cc55de04",
     "pot/benchmarks.py": "c633602273c42efe2f1ad744d1043bf9354ab93eded7973cd5c9a588a1502f3e",
@@ -32,8 +33,7 @@
     "pot/run.py": "d97a96768cedb437d370f89f4b2eda44deb962386c559c070834d6518cf22e08",
     "pot/search.py": "5eb78dfd0402d9eac2f78942c7b8e8a41deedf4caafcac062eba824db20a2844",
     "pyproject.toml": "5ab233b231bcaf690435fb47c0244332822abe116676c59763e6719eb8771e13",
-    "Readme.md": "80df245f5ffd36bc212dd408957af5eff4334ea6897b1ad0beaaec73e40f0cbd",
-    "README_zh.md": "2d43cb3188e289f5f9e782864b7a07b7938024f2f8191f8d659937c29bbec61a",
+    "Readme.md": "d5d38be6e83f811076c816e7d2e0b7d387f803ef91ea92fe9a6d5019e7ab67e5",
     "requirements-tested.txt": "46ecfced7024c9a8f9f06e4288705127f50768a2e11bb768f10bf7f4606c2433",
     "scripts/download_benchmark.py": "d29c33f64d61291f7aac2aeab85091d855bdf2bf9f29b467a181695df8168e49",
     "scripts/download_lcb.py": "6fd81b056877856d1b9cb71e9f57d18ddf2c2ef3e0ae5aeb304af00ac7e38ff1",
@@ -57,6 +57,6 @@
     "tests/test_prompt_probe.py": "f1a73fef899d9439c188004805d1523cd9fbb4cc09dbb842a6f22d0bf5b303a0",
     "tests/test_runner.py": "a0e5d77676f226a220438fdcb8a1fa3722d15bdf8e072f0d89551e1ae8610110",
     "tests/test_search.py": "429fa8fb2353ec50ed2906f384c67aa568c5b70a3b3577ae266bcf967f55c16e",
-    "THIRD_PARTY_NOTICES.md": "d88b5a89ebfbaa60a67346c9557aff5a3d35da0014373d6c473b4f7e30c96b79"
+    "THIRD_PARTY_NOTICES.md": "3b508b8000fdac059eb91d81af859e78163132ae223bd23732cbcc7c3c39a16b"
   }
 }

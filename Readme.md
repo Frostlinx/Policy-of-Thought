@@ -3,15 +3,19 @@
 # Policy of Thoughts (PoT)
 ### Scaling Test-Time Training for LLM Reasoning via Online Policy Evolution
 
-Zhengbo Jiao · Hongyu Xian · Qinglong Wang · Yunpu Ma<br>
-Zhebo Wang · Zifan Zhang · Dezhang Kong · Meng Han
+Zhengbo Jiao<sup>*</sup> · Hongyu Xian<sup>*</sup> · Qinglong Wang · Yunpu Ma<br>
+Zhebo Wang · Zifan Zhang · Dezhang Kong<sup>†</sup> · Meng Han<sup>†</sup>
+
+<sup>*</sup> Equal contribution (co-first authors) &nbsp; <sup>†</sup> Corresponding authors
+
+**EMNLP 2026 · Oral Presentation**
 
 [![Paper](https://img.shields.io/badge/arXiv-2601.20379-b31b1b.svg)](https://arxiv.org/abs/2601.20379v2)
-[![EMNLP](https://img.shields.io/badge/EMNLP-2026-blue.svg)](https://aclanthology.org/2026.emnlp-main.1908/)
+[![EMNLP 2026 Oral](https://img.shields.io/badge/EMNLP_2026-Oral-d97706.svg)](https://aclanthology.org/2026.emnlp-main.1908/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-[Paper](https://arxiv.org/abs/2601.20379v2) · [中文说明](README_zh.md) · [Quick start](#quick-start) · [Method](docs/METHOD.md) · [Citation](#citation)
+[Paper](https://arxiv.org/abs/2601.20379v2) · [Quick start](#quick-start) · [Method](docs/METHOD.md) · [Citation](#citation)
 
 </div>
 
@@ -45,6 +49,18 @@ The following values are from **Table 1 of the paper, arXiv v2**, using Qwen3-4B
 
 PoT improves LCB v6 by **22.28 percentage points** over the same model's zero-shot result. See the [paper](https://arxiv.org/html/2601.20379v2) for experimental details and ablations.
 
+### Model scale and reasoning accuracy
+
+<p align="center"><img src="assets/model-scale.png" alt="Paper Figure 2: model parameter scale versus LiveCodeBench v6 accuracy" width="900"></p>
+
+Figure 2 of the paper compares model scale and LiveCodeBench v6 accuracy. PoT reaches **49.71%** with a 4B backbone.
+
+### What does online adaptation add?
+
+<p align="center"><img src="assets/adaptation-ablation.png" alt="LCB v6 ablation: zero-shot 27.43%, search without LoRA updates 37.14%, full PoT 49.71%" width="820"></p>
+
+Redrawn from **Table 3 of arXiv v2**. Online LoRA updates add **12.57 percentage points** over search alone on LiveCodeBench v6, using the same Qwen3-4B-Instruct-2507 backbone.
+
 ## Evaluation protocol in this release
 
 All available test cases contribute to scalar rewards, candidate selection, and all-tests-pass stopping. **Only public examples and public execution diagnostics enter the model's conversation.** Hidden test inputs, expected outputs, and failure details are excluded from feedback. Each response contributes only its last closed Python block; feedback identifies and quotes the evaluated code.
@@ -70,7 +86,7 @@ For an existing compatible environment, install the package without replacing
 its dependencies: `python -m pip install -e . --no-deps`.
 The tested direct dependencies are recorded in `requirements-tested.txt`.
 OJBench needs a separate DMOJ/PyPy environment; see
-[competition setup](docs/COMPETITIONS_zh.md).
+[competition setup](docs/COMPETITIONS.md).
 
 ### Download model and data
 
@@ -124,8 +140,8 @@ output directory when the source identity changes.
 | `ojbench-icpc` | 73 | Official DMOJ judge, including interactive problems |
 
 LCB v5/v6 here refer to their new-problem increments, not cumulative releases.
-See [HumanEval/MBPP](docs/BENCHMARKS_zh.md) and
-[LCB/OJBench](docs/COMPETITIONS_zh.md) for download commands and scoring units.
+See [HumanEval/MBPP](docs/BENCHMARKS.md) and
+[LCB/OJBench](docs/COMPETITIONS.md) for download commands and scoring units.
 
 ## Outputs
 

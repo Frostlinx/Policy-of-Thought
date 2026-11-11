@@ -1,4 +1,4 @@
-include Readme.md README_zh.md LICENSE THIRD_PARTY_NOTICES.md CITATION.cff requirements-tested.txt
+include Readme.md LICENSE THIRD_PARTY_NOTICES.md CITATION.cff requirements-tested.txt
 include SOURCE_MANIFEST.json
 recursive-include docs *.md *.json
 recursive-include scripts *.py *.sh

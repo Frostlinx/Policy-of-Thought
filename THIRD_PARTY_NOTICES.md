@@ -104,9 +104,11 @@ problem/checker files retain their respective upstream terms.
 
 ## Paper figures
 
-`assets/framework.png` and `assets/pipeline.png` reproduce figures from
+`assets/framework.png`, `assets/pipeline.png`, and `assets/model-scale.png` reproduce figures from
 [Policy of Thoughts, arXiv v2](https://arxiv.org/html/2601.20379v2),
 by Zhengbo Jiao, Hongyu Xian, Qinglong Wang, Yunpu Ma, Zhebo Wang,
 Zifan Zhang, Dezhang Kong and Meng Han. The paper is distributed under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); these figures
 retain that license. They have not been modified.
+
+`assets/adaptation-ablation.png` visualizes the values in Table 3 of the same paper. It is a new chart, not an additional experiment, and is distributed under CC BY 4.0.
