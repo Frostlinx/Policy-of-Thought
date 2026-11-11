@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python }}
-      - run: python -m pip install pytest build
+      - run: python -m pip install pytest build requests
       - run: python -m pip install -e . --no-deps
       - run: python -m pytest tests -q
       - run: python -m pot.run --help
