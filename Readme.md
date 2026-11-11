@@ -37,7 +37,7 @@ The implementation combines PUCT search, sibling-relative GRPO updates, full-tra
 
 ## Results reported in the paper
 
-The following values are from **Table 1 of the paper, arXiv v2**, using Qwen3-4B-Instruct-2507. They are paper-reported percentages, not a new benchmark run of this source release. Overall follows the paper's aggregate.
+**Backbone:** Qwen3-4B-Instruct-2507.
 
 | Method | HumanEval | MBPP | LCB v5 | LCB v6 | ICPC | Overall |
 |---|---:|---:|---:|---:|---:|---:|
