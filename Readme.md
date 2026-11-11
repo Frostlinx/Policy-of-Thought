@@ -61,11 +61,13 @@ Figure 2 of the paper compares model scale and LiveCodeBench v6 accuracy. PoT re
 
 Redrawn from **Table 3 of arXiv v2**. Online LoRA updates add **12.57 percentage points** over search alone on LiveCodeBench v6, using the same Qwen3-4B-Instruct-2507 backbone.
 
-## Evaluation protocol in this release
+## Evaluation protocol
 
-All available test cases contribute to scalar rewards, candidate selection, and all-tests-pass stopping. **Only public examples and public execution diagnostics enter the model's conversation.** Hidden test inputs, expected outputs, and failure details are excluded from feedback. Each response contributes only its last closed Python block; feedback identifies and quotes the evaluated code.
+- **Reward:** the fraction of all available tests passed. Search stops when every test passes.
+- **Feedback:** public examples and their execution diagnostics. Hidden tests contribute to the reward only; their contents and failure details stay outside the conversation.
+- **Code selection:** the last closed Python block in each response. Feedback quotes the evaluated code so the model can revise it.
 
-This is an **all-test-reward** protocol. Appendix D.1 of the paper specifies disjoint reward and final evaluation tests. Report results from this implementation as adaptive solve rates under the stated protocol, rather than held-out pass@1. [Method and paper correspondence](docs/METHOD.md) documents this difference and the concrete search, training, and budget conventions.
+This implementation uses all tests for reward and evaluation; Appendix D.1 of the paper uses disjoint sets. See [method details](docs/METHOD.md) for the training objective and search budget.
 
 ## Quick start
 
@@ -97,9 +99,8 @@ python scripts/download_lcb.py --selection v5 --output ./data/lcb-v5
 
 Downloads use `hf-mirror.com`. If authentication is needed, provide `HF_TOKEN`
 through the environment. `--aria2` enables aria2c; `--no-proxy` bypasses proxy
-environment settings. Dataset revisions and integrity checks are pinned by the
-downloaders. Models and datasets are downloaded separately and are not included
-in this package.
+environment settings. The downloaders use pinned dataset revisions and verify
+file integrity.
 
 ### Run LiveCodeBench
 
@@ -113,16 +114,15 @@ bash scripts/run_benchmark.sh \
   --gpus 0 --workers-per-gpu 1 --limit 167
 ```
 
-The launcher uses CLI arguments only. It sets the release defaults explicitly:
+The launcher defaults to
 20 expansions, 3 sampled siblings, 2048 output tokens, 16384 context tokens,
 full-path model-output loss, and KL coefficient 0.02. Caller-supplied flags can
 override them. `python -m pot.parallel --help` lists the available options.
 
 Each question worker has a persistent vLLM server and HF trainer. Increase
 `--workers-per-gpu` and list additional GPUs to run independent questions in
-parallel. Admission depends on free memory. Use `--shared-gpus` only for devices
-where sharing is intended. KV cache size is not a limit on total GPU memory;
-training peaks also depend on trajectory length.
+parallel. `--minimum-free-mib` sets the free-memory threshold for starting a
+worker; `--shared-gpus` allows workers on GPUs with existing workloads.
 
 Resume with the same command and output directory. The coordinator checks
 source, configuration and dataset identity, retains completed results, and
@@ -139,7 +139,7 @@ output directory when the source identity changes.
 | `mbpp-sanitized` | 257 | Complete Python module with required functions |
 | `ojbench-icpc` | 73 | Official DMOJ judge, including interactive problems |
 
-LCB v5/v6 here refer to their new-problem increments, not cumulative releases.
+LCB v5/v6 select the new problems introduced in each release.
 See [HumanEval/MBPP](docs/BENCHMARKS.md) and
 [LCB/OJBench](docs/COMPETITIONS.md) for download commands and scoring units.
 
@@ -151,12 +151,9 @@ See [HumanEval/MBPP](docs/BENCHMARKS.md) and
 | `process.json` | One JSON object per completed question: ID, score, pass rate, time, tokens and updates |
 | `progress.json` | Worker status and current questions |
 | `metadata.json` | Effective configuration, versions and source/data hashes |
-| `execution_failures.json` | Infrastructure failures, separate from wrong answers |
+| `execution_failures.json` | Worker and evaluation infrastructure errors |
 | `jobs/*/trace.jsonl` | Candidate responses, selected code, public diagnostics and update metrics |
-| `jobs/*/evaluation_timing.jsonl` | Test status and timing, without test contents |
-
-JSONL aliases/history are also written. Cumulative question time is the sum of
-individual question durations; it is not the elapsed wall time of a parallel run.
+| `jobs/*/evaluation_timing.jsonl` | Per-test pass status, execution time and queue time |
 
 ## Development and testing
 
@@ -169,12 +166,10 @@ python -m build
 
 Tests cover rewards, stopping, feedback boundaries, code extraction, interfaces,
 GRPO gradients, trajectory weighting, adapter resets, and queue recovery.
-Optional Docker and real-model checks require their corresponding environments.
 
-The subprocess executor applies time, memory and output limits but retains the
-host user's filesystem permissions. Run generated code in a dedicated execution
-environment; a Docker executor is available for supported benchmarks. OJBench
-uses its separate pinned judge. See [third-party notices](THIRD_PARTY_NOTICES.md)
+The subprocess executor runs with your account permissions and applies time,
+memory and output limits. Use a dedicated execution environment or the Docker
+executor for supported benchmarks. OJBench uses its separate pinned judge. See [third-party notices](THIRD_PARTY_NOTICES.md)
 and [release notes](docs/RELEASE.md) for dependency and packaging details.
 
 ## Repository guide
