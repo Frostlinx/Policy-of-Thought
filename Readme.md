@@ -3,10 +3,10 @@
 # Policy of Thoughts (PoT)
 ### Scaling Test-Time Training for LLM Reasoning via Online Policy Evolution
 
-Zhengbo Jiao<sup>*</sup> · Hongyu Xian<sup>*</sup> · Qinglong Wang · Yunpu Ma<br>
+Zhengbo Jiao<sup>&#42;</sup> · Hongyu Xian<sup>&#42;</sup> · Qinglong Wang · Yunpu Ma<br>
 Zhebo Wang · Zifan Zhang · Dezhang Kong<sup>†</sup> · Meng Han<sup>†</sup>
 
-<sup>*</sup> Equal contribution (co-first authors) &nbsp; <sup>†</sup> Corresponding authors
+<sup>&#42;</sup> Equal contribution (co-first authors) &nbsp; <sup>†</sup> Corresponding authors
 
 **EMNLP 2026 · Oral Presentation**
 
