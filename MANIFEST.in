@@ -1,0 +1,12 @@
+include Readme.md README_zh.md LICENSE THIRD_PARTY_NOTICES.md CITATION.cff requirements-tested.txt
+include SOURCE_MANIFEST.json
+recursive-include docs *.md *.json
+recursive-include scripts *.py *.sh
+recursive-include tests *.py
+recursive-include pot *.json
+global-exclude *.pyc
+prune data
+prune runs
+prune models
+prune work
+recursive-include assets *.png

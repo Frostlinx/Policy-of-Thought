@@ -1,0 +1,14 @@
+# Direct dependencies for a compatible Linux environment.
+# This file is not a transitive dependency or CUDA lockfile.
+# Install into a compatible CUDA environment.
+torch==2.11.0
+vllm==0.21.0
+transformers==5.5.4
+peft==0.21.2
+requests==2.34.2
+safetensors==0.8.0
+# Optional benchmark data dependency:
+pyarrow==25.0.1
+
+# OJBench dataset metadata
+PyYAML==6.0.3

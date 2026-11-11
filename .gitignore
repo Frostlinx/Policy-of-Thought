@@ -1,0 +1,15 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+data/
+runs/
+.env
+*.token
+*.key
+work/
+models/
+outputs/
+pytest-cache-files*/
+dist/
+build/
+*.egg-info/

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "policy-of-thoughts"
+version = "0.5.1"
+description = "Per-problem tree search and online policy adaptation for code reasoning"
+requires-python = ">=3.10"
+readme = "Readme.md"
+license = "MIT"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+dependencies = ["torch>=2.9", "transformers>=4.51", "peft>=0.17", "requests>=2.31"]
+
+[project.optional-dependencies]
+vllm = ["vllm==0.21.0"]
+test = ["pytest>=8"]
+data = ["pyarrow>=15", "PyYAML>=6"]
+
+[project.scripts]
+pot-run = "pot.run:main"
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2601.20379v2"
+
+[tool.setuptools.packages.find]
+include = ["pot*"]
+
+[tool.setuptools.package-data]
+pot = ["ojbench_checksums.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

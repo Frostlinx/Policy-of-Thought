@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this implementation, please cite the Policy of Thoughts paper and identify your evaluation protocol."
+title: "Policy of Thoughts"
+version: 0.5.1
+license: MIT
+type: software
+authors:
+  - name: "Policy of Thoughts contributors"
+preferred-citation:
+  type: article
+  title: "Policy of Thoughts: Scaling Test-Time Training for LLM Reasoning via Online Policy Evolution"
+  authors:
+    - family-names: Jiao
+      given-names: Zhengbo
+    - family-names: Xian
+      given-names: Hongyu
+    - family-names: Wang
+      given-names: Qinglong
+    - family-names: Ma
+      given-names: Yunpu
+    - family-names: Wang
+      given-names: Zhebo
+    - family-names: Zhang
+      given-names: Zifan
+    - family-names: Kong
+      given-names: Dezhang
+    - family-names: Han
+      given-names: Meng
+  year: 2026
+  doi: "10.48550/arXiv.2601.20379"
+  url: "https://arxiv.org/abs/2601.20379v2"
+repository-code: "https://github.com/Frostlinx/Policy-of-Thought"
