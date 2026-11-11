@@ -8,6 +8,5 @@ describes the algorithm and evaluation protocol. Dependencies are listed in
 `pyproject.toml` and `requirements-tested.txt`; license information is in
 `LICENSE` and `THIRD_PARTY_NOTICES.md`.
 
-Models and datasets are downloaded separately. The source distribution contains
-no runtime outputs or credentials. `SOURCE_MANIFEST.json` records file hashes,
-and the ZIP has an accompanying SHA256 checksum.
+Models and datasets are downloaded separately. `SOURCE_MANIFEST.json` records
+the SHA-256 hash of each distributed file.
