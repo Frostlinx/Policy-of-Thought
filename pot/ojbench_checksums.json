@@ -1,0 +1,726 @@
+{
+  "ICPC/nwerc2022_A/data.zip": {
+    "bytes": 34128131,
+    "sha256": "1e1b74bb39283545bc56ef173c41b542756db2623c949b79bfa7618c1aedb4b3"
+  },
+  "ICPC/nwerc2022_A/init.yml": {
+    "bytes": 10408,
+    "git_blob_sha1": "23aafc390d9282a6fce838320bf75d0a995a27ee"
+  },
+  "ICPC/nwerc2022_B/data.zip": {
+    "bytes": 6051,
+    "sha256": "0de8718ad75e9b155afd5c28e97b0008d643a918fa2fd1ab338fb538b9924db6"
+  },
+  "ICPC/nwerc2022_B/init.yml": {
+    "bytes": 1415,
+    "git_blob_sha1": "de490ba017909a68e67b6f90ef016efcfbc18408"
+  },
+  "ICPC/nwerc2022_C/data.zip": {
+    "bytes": 7287,
+    "sha256": "9fcc1c2ccef8d81e0db764f9628bf1e0dafa1d3edeb69ef2261170ac1d7201ab"
+  },
+  "ICPC/nwerc2022_C/init.yml": {
+    "bytes": 1719,
+    "git_blob_sha1": "57bef66c28e893422d879a03a615d97cd9c4af34"
+  },
+  "ICPC/nwerc2022_D/data.zip": {
+    "bytes": 347341,
+    "sha256": "067de4df9a960214b3dccb34facbd8b4a88d0d2a08b2635fdc3eff1dae29feea"
+  },
+  "ICPC/nwerc2022_D/init.yml": {
+    "bytes": 3905,
+    "git_blob_sha1": "eea4a503b8371f327553aaf32a59b82748748f7d"
+  },
+  "ICPC/nwerc2022_E/data.zip": {
+    "bytes": 115467,
+    "sha256": "931f1f2c289de53af9c2c4f82799bb43e88e4985ec051891224c306ffe111a88"
+  },
+  "ICPC/nwerc2022_E/init.yml": {
+    "bytes": 6858,
+    "git_blob_sha1": "16c4e6659047220266599cc7e01829794727584b"
+  },
+  "ICPC/nwerc2022_E/output_validators/output_validator/output_validator.cpp": {
+    "bytes": 2468,
+    "git_blob_sha1": "c46aedd986220294f4a55ca642649f1f9dc63678"
+  },
+  "ICPC/nwerc2022_E/output_validators/output_validator/validation.h": {
+    "bytes": 46555,
+    "git_blob_sha1": "a12961a6605a90b83e02bec0c8f9c0e72626ebb2"
+  },
+  "ICPC/nwerc2022_F/data.zip": {
+    "bytes": 295421524,
+    "sha256": "ecf0c3b63e72a3e39274bb80c7b227c503eccad52366caf3dd56a9e414081285"
+  },
+  "ICPC/nwerc2022_F/init.yml": {
+    "bytes": 14422,
+    "git_blob_sha1": "e65235b09d6d0e833bbeaff036dece78bfb707e0"
+  },
+  "ICPC/nwerc2022_G/data.zip": {
+    "bytes": 101977,
+    "sha256": "4f2f5f0bbf09389c282827ce78c294db9ceaa8b89348714372d3cb13a0610d74"
+  },
+  "ICPC/nwerc2022_G/init.yml": {
+    "bytes": 12796,
+    "git_blob_sha1": "f8e67b866efca686edef9cb54ab753bfa42dc178"
+  },
+  "ICPC/nwerc2022_G/output_validators/validate/validate.cpp": {
+    "bytes": 3397,
+    "git_blob_sha1": "aa726753816382cb1fbc984abddba8f41561be07"
+  },
+  "ICPC/nwerc2022_G/output_validators/validate/validate.h": {
+    "bytes": 4333,
+    "git_blob_sha1": "9e451541645b53135db0d7a24a1ca2abeb779a7a"
+  },
+  "ICPC/nwerc2022_H/data.zip": {
+    "bytes": 32405712,
+    "sha256": "67e095af096b197afd21937619a0a8bff678c8b5c9bf747d261b0de61c8d6229"
+  },
+  "ICPC/nwerc2022_H/init.yml": {
+    "bytes": 5224,
+    "git_blob_sha1": "729cb3cedec91052ad46c28d336a425c1784a64c"
+  },
+  "ICPC/nwerc2022_I/data.zip": {
+    "bytes": 5549755,
+    "sha256": "72281fe73c0859d81835dd0bdc762a728a8b3dcf6197dd1ae3f461d2304eef18"
+  },
+  "ICPC/nwerc2022_I/init.yml": {
+    "bytes": 4936,
+    "git_blob_sha1": "6b97383da338c2bc4336f7056f0d563337956ff5"
+  },
+  "ICPC/nwerc2022_I/output_validators/output_validator/output_validator.cpp": {
+    "bytes": 1296,
+    "git_blob_sha1": "3422c4d89e79710fc092bd388e31e097adaf6cf2"
+  },
+  "ICPC/nwerc2022_I/output_validators/output_validator/validation.h": {
+    "bytes": 46555,
+    "git_blob_sha1": "a12961a6605a90b83e02bec0c8f9c0e72626ebb2"
+  },
+  "ICPC/nwerc2022_J/data.zip": {
+    "bytes": 77274230,
+    "sha256": "3e980aaccf3b6013c6279a2daa2da2569b5deecf8006b706234b2af05ccb1401"
+  },
+  "ICPC/nwerc2022_J/init.yml": {
+    "bytes": 7746,
+    "git_blob_sha1": "5c9ebaf686b66d615e52d889014319c8588230cf"
+  },
+  "ICPC/nwerc2022_K/data.zip": {
+    "bytes": 19948886,
+    "sha256": "598d142a779315a78464d1ea3b333ae881c6f035fa8b7ae0169df2ca7e46e22d"
+  },
+  "ICPC/nwerc2022_K/init.yml": {
+    "bytes": 11592,
+    "git_blob_sha1": "b71027e36592dd1420b26cb497351ed88b975fe5"
+  },
+  "ICPC/nwerc2022_L/data.zip": {
+    "bytes": 1388307,
+    "sha256": "99155e33e1631315454d4789cc8de5c8534227e940264de6ce0dbbcfef1fa4e4"
+  },
+  "ICPC/nwerc2022_L/init.yml": {
+    "bytes": 9603,
+    "git_blob_sha1": "85c60975b87e18c57dd3acaf09f931abf87a6aa7"
+  },
+  "ICPC/nwerc2022_L/output_validators/validate/output-validator.cc": {
+    "bytes": 2075,
+    "git_blob_sha1": "7f3428595ed280832a9791257ab86d4d9512268f"
+  },
+  "ICPC/nwerc2022_L/output_validators/validate/validation.h": {
+    "bytes": 46555,
+    "git_blob_sha1": "a12961a6605a90b83e02bec0c8f9c0e72626ebb2"
+  },
+  "ICPC/nwerc2023_A/data.zip": {
+    "bytes": 26893358,
+    "sha256": "fb24aeac8306c68202fc2dde976466ba81c12dfeb111cd2df644468ba06ce0c3"
+  },
+  "ICPC/nwerc2023_A/init.yml": {
+    "bytes": 8590,
+    "git_blob_sha1": "43960bcba1497b578afa39977689724557189576"
+  },
+  "ICPC/nwerc2023_B/data.zip": {
+    "bytes": 22766975,
+    "sha256": "ec6dceb011ea9328d261a0dfbff0d804afec39333cb02894d8054f26e978da0d"
+  },
+  "ICPC/nwerc2023_B/init.yml": {
+    "bytes": 7781,
+    "git_blob_sha1": "ac4eecad1e83dac45baad1e405214654db817ce2"
+  },
+  "ICPC/nwerc2023_B/output_validators/output_validator/outputValidator.cpp": {
+    "bytes": 2907,
+    "git_blob_sha1": "6def88c8ffecffebd7ffae1430357e1aca74841d"
+  },
+  "ICPC/nwerc2023_B/output_validators/output_validator/validate.h": {
+    "bytes": 89113,
+    "git_blob_sha1": "73a2289afda07cd2370d02439fb91fea2ee1743b"
+  },
+  "ICPC/nwerc2023_C/data.zip": {
+    "bytes": 48190763,
+    "sha256": "649797f71211929574b32c8992a4bad824163cfa41c8f121fe22b710fff88829"
+  },
+  "ICPC/nwerc2023_C/init.yml": {
+    "bytes": 2668,
+    "git_blob_sha1": "188964f572d794999e750af61a85e5ee9afb4c66"
+  },
+  "ICPC/nwerc2023_D/data.zip": {
+    "bytes": 21922,
+    "sha256": "aab1e5aeb5b1c01da996d45dca2f863a670ae6b3937726d223786ed3d892f8f7"
+  },
+  "ICPC/nwerc2023_D/init.yml": {
+    "bytes": 5041,
+    "git_blob_sha1": "ddf034e6944be490dbbb90ac1969e88b5de089fe"
+  },
+  "ICPC/nwerc2023_E/data.zip": {
+    "bytes": 242919,
+    "sha256": "2d2d6977cbb540127a2425e6d396e1aa9dcea3c85eb53900366b6d8f16d04079"
+  },
+  "ICPC/nwerc2023_E/init.yml": {
+    "bytes": 8294,
+    "git_blob_sha1": "b617f971a768f7af357fba9d1e57ce51d623b27f"
+  },
+  "ICPC/nwerc2023_F/data.zip": {
+    "bytes": 19220,
+    "sha256": "578c303741e521844c78cdfa125ff3dd0e48444b3f99282cddd941cfc59844ad"
+  },
+  "ICPC/nwerc2023_F/init.yml": {
+    "bytes": 4449,
+    "git_blob_sha1": "0b26bb5eb4478f1451d31ad9bed2f2dc65a7d0d1"
+  },
+  "ICPC/nwerc2023_F/output_validators/output_validator/outputValidator.cpp": {
+    "bytes": 2430,
+    "git_blob_sha1": "504680424165bb5608521e94d5c80bc557544fc0"
+  },
+  "ICPC/nwerc2023_F/output_validators/output_validator/validate.h": {
+    "bytes": 89113,
+    "git_blob_sha1": "73a2289afda07cd2370d02439fb91fea2ee1743b"
+  },
+  "ICPC/nwerc2023_G/data.zip": {
+    "bytes": 48440558,
+    "sha256": "b249ebce9baacfa398b0ff98d8b596d8b9bf6bbe555580c7ef3ed1bd4d7bdd5c"
+  },
+  "ICPC/nwerc2023_G/init.yml": {
+    "bytes": 3483,
+    "git_blob_sha1": "27b6a1664fca0de9490e0fea21b4d748c63d9a6c"
+  },
+  "ICPC/nwerc2023_I/data.zip": {
+    "bytes": 419832,
+    "sha256": "58eeec7c7028ff623f69230d08e563af9d2d8843d2147cc68b22ae76f7387839"
+  },
+  "ICPC/nwerc2023_I/init.yml": {
+    "bytes": 6350,
+    "git_blob_sha1": "e49c2aea892c88b005a965f3c948a61c090e55f8"
+  },
+  "ICPC/nwerc2023_J/data.zip": {
+    "bytes": 36015,
+    "sha256": "33ae99662937f78d8c3e056211091ea03f79a276e25384f059c9188b4b0c89e3"
+  },
+  "ICPC/nwerc2023_J/init.yml": {
+    "bytes": 6973,
+    "git_blob_sha1": "722530a6a9be60146daea1ddc11539bafc1dc0dd"
+  },
+  "ICPC/nwerc2023_K/data.zip": {
+    "bytes": 17625,
+    "sha256": "67939ac2ede041990fde713a8f0578eedcfc2e45cd741ede8c178c5215f81cee"
+  },
+  "ICPC/nwerc2023_K/init.yml": {
+    "bytes": 4106,
+    "git_blob_sha1": "34073a5f229249341edb08a9d95ccef53d3f2297"
+  },
+  "ICPC/nwerc2023_L/data.zip": {
+    "bytes": 39550,
+    "sha256": "38fa415789e2a6e513a2ddd454c3723854632bb1a400298457bda22232bb404e"
+  },
+  "ICPC/nwerc2023_L/init.yml": {
+    "bytes": 11312,
+    "git_blob_sha1": "08b7a4f49115bf950c1e443e04dc636df4b6bfc7"
+  },
+  "ICPC/nwerc2023_L/output_validators/output_validator/output_validator.cpp": {
+    "bytes": 7984,
+    "git_blob_sha1": "7c7db684d333688b986859f729b024b398f1e5c3"
+  },
+  "ICPC/nwerc2023_L/output_validators/output_validator/validation.h": {
+    "bytes": 44020,
+    "git_blob_sha1": "3cf57451e6b4bc626684cb8496ed28eee8cd1bea"
+  },
+  "ICPC/nwerc2024_A/data.zip": {
+    "bytes": 1089950,
+    "sha256": "7f427b392a57c476a2dc77084d7bf49b72d1f78d314147cfac8907778411c0b7"
+  },
+  "ICPC/nwerc2024_A/init.yml": {
+    "bytes": 1780,
+    "git_blob_sha1": "f3dc1ff73e7f7a3f696666b323d69269ea052d96"
+  },
+  "ICPC/nwerc2024_B/data.zip": {
+    "bytes": 36613298,
+    "sha256": "f25a84af021854766d974f9012e5d9427c190ee5e8cf14d7f2ca3fb3eb806705"
+  },
+  "ICPC/nwerc2024_B/init.yml": {
+    "bytes": 7038,
+    "git_blob_sha1": "ac13f6407aac8f89c10f7d76e10633486358aef1"
+  },
+  "ICPC/nwerc2024_C/data.zip": {
+    "bytes": 40243,
+    "sha256": "320bd1557366e3d9bf71edde99c5d647e612f6620238a99888ac3915502e91f2"
+  },
+  "ICPC/nwerc2024_C/init.yml": {
+    "bytes": 10358,
+    "git_blob_sha1": "dee6db441dd7042e0b5c657c2f093df149b7ec38"
+  },
+  "ICPC/nwerc2024_D/data.zip": {
+    "bytes": 38579,
+    "sha256": "958dee059f4c5dd117c58110903a0f5e910db32d1db808a5b5a09b4ef98e3d06"
+  },
+  "ICPC/nwerc2024_D/init.yml": {
+    "bytes": 7742,
+    "git_blob_sha1": "11a6f6004c5fea1d64eaa86e08ce1017c2a4094e"
+  },
+  "ICPC/nwerc2024_E/data.zip": {
+    "bytes": 3431317,
+    "sha256": "9b73d65729dc9bd3062290f0f4eb5d12bb61cc81be8be80263becbefaeb552ce"
+  },
+  "ICPC/nwerc2024_E/init.yml": {
+    "bytes": 5324,
+    "git_blob_sha1": "cb5bfd94e435668b1ec8aa723321bc1a3ab0a9f0"
+  },
+  "ICPC/nwerc2024_F/data.zip": {
+    "bytes": 154538549,
+    "sha256": "2a337af0248c03afae927f5b259f888001aa15f53c5124a9b43edf7a20619b2b"
+  },
+  "ICPC/nwerc2024_F/init.yml": {
+    "bytes": 4556,
+    "git_blob_sha1": "51343cb93ad7a6c1dce2be8860b4f00d898b061f"
+  },
+  "ICPC/nwerc2024_G/data.zip": {
+    "bytes": 21258775,
+    "sha256": "333a7270ae974aa1a468e068f4c24870d94f0e9e6489ad77858a1e4e4ead3e0f"
+  },
+  "ICPC/nwerc2024_G/init.yml": {
+    "bytes": 11982,
+    "git_blob_sha1": "7f7089b2c4ef02dff119c4400780fb681e9d0c53"
+  },
+  "ICPC/nwerc2024_H/data.zip": {
+    "bytes": 60128267,
+    "sha256": "ffa1f8c43270325db71aea459a55a1a17b47b0c700c1cbc8f20c37e9957e2b25"
+  },
+  "ICPC/nwerc2024_H/init.yml": {
+    "bytes": 10726,
+    "git_blob_sha1": "9aaff8ee2b8797ed2e0e765c38bf80b5ff41a954"
+  },
+  "ICPC/nwerc2024_H/output_validators/output_validator/output_validator.cpp": {
+    "bytes": 2073,
+    "git_blob_sha1": "409b965d089e184f69e6bc903fa047453255a4d4"
+  },
+  "ICPC/nwerc2024_H/output_validators/output_validator/validation.h": {
+    "bytes": 44358,
+    "git_blob_sha1": "9dbc11931c68be348cbe730f4a033f6ee7ab1552"
+  },
+  "ICPC/nwerc2024_I/data.zip": {
+    "bytes": 36976137,
+    "sha256": "3b1194d49cccf77de33b2a4becb3acf5983285d2fc4adbf29e3c6c983fd54de5"
+  },
+  "ICPC/nwerc2024_I/init.yml": {
+    "bytes": 2318,
+    "git_blob_sha1": "3decf6c624a101276881e7150a0964cece004e79"
+  },
+  "ICPC/nwerc2024_J/data.zip": {
+    "bytes": 143354,
+    "sha256": "53027cc71ca2a13a84bb09c5840d53a9db409e7ddd60f4749e05ce713c9b49eb"
+  },
+  "ICPC/nwerc2024_J/init.yml": {
+    "bytes": 4378,
+    "git_blob_sha1": "2fdecd7667770eb734ea30d4d4c2e270b79c2912"
+  },
+  "ICPC/nwerc2024_J/output_validators/output_validator/output_validator.cpp": {
+    "bytes": 6219,
+    "git_blob_sha1": "ed4e92dd10c719391e4e90cbbe18841e9ecfb999"
+  },
+  "ICPC/nwerc2024_J/output_validators/output_validator/validation.h": {
+    "bytes": 44359,
+    "git_blob_sha1": "60911fd56d5e788b38fc80b022335296221d05b1"
+  },
+  "ICPC/nwerc2024_K/data.zip": {
+    "bytes": 74967273,
+    "sha256": "bfbfa146de2c82d084664d2fab4b1ffe7a06c30bafed2635a39692b8ac1f2e38"
+  },
+  "ICPC/nwerc2024_K/init.yml": {
+    "bytes": 4493,
+    "git_blob_sha1": "f541f3c92f2f2c5934a935b4dbb2948937670d8d"
+  },
+  "ICPC/nwerc2024_L/data.zip": {
+    "bytes": 23849839,
+    "sha256": "4c40f6a9a495e5e2cee9406e99d704fbb03906e1ab53dc03a6f7898094046a4a"
+  },
+  "ICPC/nwerc2024_L/init.yml": {
+    "bytes": 13504,
+    "git_blob_sha1": "a5a40fa51d3aa746b58a5cad8853611a21babe7a"
+  },
+  "ICPC/nwerc2024_M/data.zip": {
+    "bytes": 20234464,
+    "sha256": "9ba9daa384aaf7b5b57201b1f5deea5ad01e825e3568c6059782e6a04c531d16"
+  },
+  "ICPC/nwerc2024_M/init.yml": {
+    "bytes": 5785,
+    "git_blob_sha1": "036f0977c7219f8ad11281222de3a4f040204cb9"
+  },
+  "ICPC/swerc2022_A/data.zip": {
+    "bytes": 10249,
+    "sha256": "f17a3c6213bb7dbcc5be289da0d8b72cff6284edbb8b61a51eea6507f341fdfe"
+  },
+  "ICPC/swerc2022_A/init.yml": {
+    "bytes": 66,
+    "git_blob_sha1": "07111ce6349ccf7fab6b2d473929607bc2d245cc"
+  },
+  "ICPC/swerc2022_B/data.zip": {
+    "bytes": 1922,
+    "sha256": "33c947c76bebd29e00b44cbdc072bf8f32346c8c663c1443caf6170e40830bab"
+  },
+  "ICPC/swerc2022_B/init.yml": {
+    "bytes": 434,
+    "git_blob_sha1": "d3d1ead119b516dd7fd4aa54541bbc143c8d95ac"
+  },
+  "ICPC/swerc2022_B/output_validators/checker.cpp": {
+    "bytes": 2101,
+    "git_blob_sha1": "6a612241d4680fbad5155ed95fd41abf8a71de98"
+  },
+  "ICPC/swerc2022_B/output_validators/testlib.h": {
+    "bytes": 192371,
+    "git_blob_sha1": "7f15d596b3531af62729aee5132df3bd29d675c7"
+  },
+  "ICPC/swerc2022_C/data.zip": {
+    "bytes": 3081451,
+    "sha256": "53cb88ab4895a6f4e1ae22faaaca4b737b999a78e6c5611df0c103361aa7eec4"
+  },
+  "ICPC/swerc2022_C/init.yml": {
+    "bytes": 1988,
+    "git_blob_sha1": "b216e50a9c7ab05e7fe604d8f657d199c54fcaa9"
+  },
+  "ICPC/swerc2022_C/output_validators/checker.cpp": {
+    "bytes": 1571,
+    "git_blob_sha1": "289e6fac655f7521920aa879d42a35285d188ca2"
+  },
+  "ICPC/swerc2022_C/output_validators/testlib.h": {
+    "bytes": 192371,
+    "git_blob_sha1": "7f15d596b3531af62729aee5132df3bd29d675c7"
+  },
+  "ICPC/swerc2022_D/data.zip": {
+    "bytes": 217165,
+    "sha256": "db4b1befecc7b130b1294a18a996a6f16a43d9e4056d74bc35b7a26e4cad8865"
+  },
+  "ICPC/swerc2022_D/init.yml": {
+    "bytes": 2186,
+    "git_blob_sha1": "a67fdab749527b2242c9a980b6416a3f9e2c3bb4"
+  },
+  "ICPC/swerc2022_E/data.zip": {
+    "bytes": 23836,
+    "sha256": "d857e3af209af4002717b7c9b790154297c0653964d27cd66a8d837d4bd74d9e"
+  },
+  "ICPC/swerc2022_E/init.yml": {
+    "bytes": 1981,
+    "git_blob_sha1": "7e018a0815be0d1ed18041e08677ccffd84f5d92"
+  },
+  "ICPC/swerc2022_E/output_validators/interactor.cpp": {
+    "bytes": 4463,
+    "git_blob_sha1": "a0f124084e03a613b74f0e85b64b19ae825f3e55"
+  },
+  "ICPC/swerc2022_E/output_validators/testlib.h": {
+    "bytes": 192370,
+    "git_blob_sha1": "69baa1f48b5d86daa58cade43c18b382abb03587"
+  },
+  "ICPC/swerc2022_F/data.zip": {
+    "bytes": 1774365,
+    "sha256": "6c001086387cf2b400bc53fdfcf66e961178b8e83b11ab11fec0458e0774925c"
+  },
+  "ICPC/swerc2022_F/init.yml": {
+    "bytes": 210,
+    "git_blob_sha1": "4776fe0a5f9131d0c5f8f4689d77e6449f1fcf88"
+  },
+  "ICPC/swerc2022_G/data.zip": {
+    "bytes": 9720739,
+    "sha256": "ce4180e07fdc2708472dbef408756384cc1c8040439dae6226b924363b9a763b"
+  },
+  "ICPC/swerc2022_G/init.yml": {
+    "bytes": 928,
+    "git_blob_sha1": "15c77170b73048e75ebda41f4e23bd5a1f53b17a"
+  },
+  "ICPC/swerc2022_H/data.zip": {
+    "bytes": 10439904,
+    "sha256": "994efa28f42287e14f08364b148323ac1c4e5559576bf342c65e073c038aaaa0"
+  },
+  "ICPC/swerc2022_H/init.yml": {
+    "bytes": 854,
+    "git_blob_sha1": "e5b20426669a4c8e62bc9065dbe3105bbfcb3dfc"
+  },
+  "ICPC/swerc2022_I/data.zip": {
+    "bytes": 8064,
+    "sha256": "0b2c7f9fca32b6e9533e0dc59e12ef5d938b51e2a813184b59748714e8bf5213"
+  },
+  "ICPC/swerc2022_I/init.yml": {
+    "bytes": 1181,
+    "git_blob_sha1": "7cba50be6145154ab37fd441217938d037232eb0"
+  },
+  "ICPC/swerc2022_I/output_validators/interactor.cpp": {
+    "bytes": 3409,
+    "git_blob_sha1": "de0f9d284fecb46126484b847bc16cc4324474ab"
+  },
+  "ICPC/swerc2022_I/output_validators/testlib.h": {
+    "bytes": 192370,
+    "git_blob_sha1": "69baa1f48b5d86daa58cade43c18b382abb03587"
+  },
+  "ICPC/swerc2022_J/data.zip": {
+    "bytes": 70805,
+    "sha256": "082955236d3e908f9ae3b674d74bbb29afe28ba51b202816384035426b18d612"
+  },
+  "ICPC/swerc2022_J/init.yml": {
+    "bytes": 1312,
+    "git_blob_sha1": "bb1355b15533e12994ac3c06123197567b0f6aae"
+  },
+  "ICPC/swerc2022_K/data.zip": {
+    "bytes": 735349,
+    "sha256": "3df858714779ce555090d27a0c0d22383106f8e526ce09712700f05b79629e81"
+  },
+  "ICPC/swerc2022_K/init.yml": {
+    "bytes": 618,
+    "git_blob_sha1": "10b18c346eb8aa74949d1740f020a26256e04d86"
+  },
+  "ICPC/swerc2022_K/output_validators/checker.cpp": {
+    "bytes": 2592,
+    "git_blob_sha1": "8568a0a0e96bdc93f0b142e2eceb8a7c59f0fb96"
+  },
+  "ICPC/swerc2022_K/output_validators/testlib.h": {
+    "bytes": 192371,
+    "git_blob_sha1": "7f15d596b3531af62729aee5132df3bd29d675c7"
+  },
+  "ICPC/swerc2022_L/data.zip": {
+    "bytes": 37213,
+    "sha256": "dd0dfba74cd2bd7fafdf9b5828bf9ebf45093c8eb1b9015f2038e0cbdb2186b4"
+  },
+  "ICPC/swerc2022_L/init.yml": {
+    "bytes": 1692,
+    "git_blob_sha1": "37a32bb8eee95d9711911e5bb42e74a7f6efe5c0"
+  },
+  "ICPC/swerc2023_A/data.zip": {
+    "bytes": 300129,
+    "sha256": "75c5e5877aebb05b244f9041f6bc4021e2cb21444091d858137820ec272e5e65"
+  },
+  "ICPC/swerc2023_A/init.yml": {
+    "bytes": 897,
+    "git_blob_sha1": "3f637e08878fa66196595aa3f36e0176b1347de2"
+  },
+  "ICPC/swerc2023_B/data.zip": {
+    "bytes": 42408,
+    "sha256": "48fe1ebf130532d47fb1fd455ef922478aa1ddafc68310f5f71e7c52d26b9424"
+  },
+  "ICPC/swerc2023_B/init.yml": {
+    "bytes": 631,
+    "git_blob_sha1": "2a423416224d676079ff1d0055863634e0300969"
+  },
+  "ICPC/swerc2023_C/data.zip": {
+    "bytes": 8477,
+    "sha256": "0c9fef46ed2ec84a28c703c743af48dd58bbdc9eef651255ee9d0163dfe15526"
+  },
+  "ICPC/swerc2023_C/init.yml": {
+    "bytes": 870,
+    "git_blob_sha1": "cab4f39105f52de88770b2a1deda59ed3f28cbdd"
+  },
+  "ICPC/swerc2023_D/data.zip": {
+    "bytes": 2926563,
+    "sha256": "df36472a0ab2206b4814b10e094b085ccd300755a25ae1421ffe501026b8341b"
+  },
+  "ICPC/swerc2023_D/init.yml": {
+    "bytes": 707,
+    "git_blob_sha1": "81fbb4275bf016d203d7f9eeeea8b1d1adb26a63"
+  },
+  "ICPC/swerc2023_E/data.zip": {
+    "bytes": 1514898,
+    "sha256": "8d12f4291a798fb2fba0c3e96611a346f157311f918aeb0c9247751f282176cf"
+  },
+  "ICPC/swerc2023_E/init.yml": {
+    "bytes": 631,
+    "git_blob_sha1": "2a423416224d676079ff1d0055863634e0300969"
+  },
+  "ICPC/swerc2023_F/data.zip": {
+    "bytes": 4139533,
+    "sha256": "542d0236273aa7bbee60c512aef2e21c2fab43d84dea62773cde7b0fdbabffb8"
+  },
+  "ICPC/swerc2023_F/init.yml": {
+    "bytes": 1125,
+    "git_blob_sha1": "879545a58b26edc00459c29c058348ef61888892"
+  },
+  "ICPC/swerc2023_G/data.zip": {
+    "bytes": 42250973,
+    "sha256": "725e7f3feaad499b3bbbf1ee22a4cc82cb20a3219bcf4f893a4013d15deb3320"
+  },
+  "ICPC/swerc2023_G/init.yml": {
+    "bytes": 783,
+    "git_blob_sha1": "af6134a203a7da86757ce784301800b68db4be01"
+  },
+  "ICPC/swerc2023_H/data.zip": {
+    "bytes": 789248,
+    "sha256": "acec489602a7656997844e18d1c72db4d284aa3c00cb7f1817991833619c2131"
+  },
+  "ICPC/swerc2023_H/init.yml": {
+    "bytes": 631,
+    "git_blob_sha1": "2a423416224d676079ff1d0055863634e0300969"
+  },
+  "ICPC/swerc2023_I/data.zip": {
+    "bytes": 2870817,
+    "sha256": "e8da8d5827cd22c60ab2ae0ef85ec1b4da9c90e61705d2e48f431d1edf96a775"
+  },
+  "ICPC/swerc2023_I/init.yml": {
+    "bytes": 1201,
+    "git_blob_sha1": "0a3eafe39a9fb6f9eb98ef74fb1a06a90df7d025"
+  },
+  "ICPC/swerc2023_J/data.zip": {
+    "bytes": 7837168,
+    "sha256": "97cad70ef347ea48e1ffae204bf7fd72599462ebcb345b0ea3ad932bf2b35644"
+  },
+  "ICPC/swerc2023_J/init.yml": {
+    "bytes": 1619,
+    "git_blob_sha1": "b915c1e85248f00a2c6693b5c23f5a9cb605ee37"
+  },
+  "ICPC/swerc2023_K/data.zip": {
+    "bytes": 90879599,
+    "sha256": "283cc72d0ce8c0b7a2f47b792c075ec8efb49ee51a3504d154bfc170464b35e4"
+  },
+  "ICPC/swerc2023_K/init.yml": {
+    "bytes": 349,
+    "git_blob_sha1": "f1875f48d194acda013c8ab23d9caea9666a0f67"
+  },
+  "ICPC/swerc2023_M/data.zip": {
+    "bytes": 15520576,
+    "sha256": "4803e78093c06b3ae9e72243b5ff9e196c5e8f36c2606235e6f719f8151433e6"
+  },
+  "ICPC/swerc2023_M/init.yml": {
+    "bytes": 1087,
+    "git_blob_sha1": "637c9daccfc09a3f2d58451c9b58934472edc309"
+  },
+  "ICPC/swerc2024_A/data.zip": {
+    "bytes": 54168139,
+    "sha256": "45c669f336da71cdeafb81d76e29af5a422cc3eab3353161f0b5996daf4832f3"
+  },
+  "ICPC/swerc2024_A/init.yml": {
+    "bytes": 1291,
+    "git_blob_sha1": "e4c4f0039c848e7442a302a1d2c776c34a5b9b69"
+  },
+  "ICPC/swerc2024_B/data.zip": {
+    "bytes": 136158,
+    "sha256": "400b071b16f9221cf62923dc766de9b179e9957f4b7c75249cadd3957a4bd6a1"
+  },
+  "ICPC/swerc2024_B/init.yml": {
+    "bytes": 1626,
+    "git_blob_sha1": "e26fb976d2ab8930252af526d5923c1d70115324"
+  },
+  "ICPC/swerc2024_B/output_validators/validator/validate.h": {
+    "bytes": 4656,
+    "git_blob_sha1": "40d868802055ef0fd4a26503e6641a4a50941d2c"
+  },
+  "ICPC/swerc2024_B/output_validators/validator/validator.cpp": {
+    "bytes": 2554,
+    "git_blob_sha1": "7a7ae8f7eaba19df475751bfd7271cc1afff4d74"
+  },
+  "ICPC/swerc2024_C/data.zip": {
+    "bytes": 9427,
+    "sha256": "f72be314556f9132d56f8c9437092abc05021f71b953611330761f5c991aa46e"
+  },
+  "ICPC/swerc2024_C/init.yml": {
+    "bytes": 2001,
+    "git_blob_sha1": "9f9c34ef4c2c318c2a2e2ab972d9cf29bd870fee"
+  },
+  "ICPC/swerc2024_D/data.zip": {
+    "bytes": 2875660,
+    "sha256": "b985cbb3eaa1fbaebed69ef28e2215ff1f8e5d8db2d60f958055f340d02e8a42"
+  },
+  "ICPC/swerc2024_D/init.yml": {
+    "bytes": 337,
+    "git_blob_sha1": "13576182fc83d53fee976c55417da2556592ea22"
+  },
+  "ICPC/swerc2024_E/data.zip": {
+    "bytes": 161911,
+    "sha256": "462206fde59f278b7d8dc4930853e58f305bc1ce72b599b605dc6cf685dbd8f6"
+  },
+  "ICPC/swerc2024_E/init.yml": {
+    "bytes": 973,
+    "git_blob_sha1": "0c487adc48fae6198f357ba1d4321a45d4b4cb08"
+  },
+  "ICPC/swerc2024_E/output_validators/pointoutpolygon_validator/validate.cpp": {
+    "bytes": 4255,
+    "git_blob_sha1": "6555d911037cf8e209e7ebfe614d75871187b017"
+  },
+  "ICPC/swerc2024_E/output_validators/pointoutpolygon_validator/validate.h": {
+    "bytes": 4689,
+    "git_blob_sha1": "d7b30881fe93fc2174e773b07bb0c2d5aa9ea557"
+  },
+  "ICPC/swerc2024_F/data.zip": {
+    "bytes": 38779468,
+    "sha256": "03ec841ae73738589d8fb5d83e742c110312eb4b728a9e4528d685bcdc4286b3"
+  },
+  "ICPC/swerc2024_F/init.yml": {
+    "bytes": 3777,
+    "git_blob_sha1": "8adfc6c236f8d5d8740a1b8cc476254d11fa39e2"
+  },
+  "ICPC/swerc2024_G/data.zip": {
+    "bytes": 10415,
+    "sha256": "50287aa18951731157377e6a449143409c0bdf7f375f532a126061d8c888cea9"
+  },
+  "ICPC/swerc2024_G/init.yml": {
+    "bytes": 401,
+    "git_blob_sha1": "cdc157477e6c9866a08f14ba2d7a96f7319784fd"
+  },
+  "ICPC/swerc2024_H/data.zip": {
+    "bytes": 2788,
+    "sha256": "002f5c5a8162a28091976e308feb445f8124eeadd8d377210cb910e223f9e534"
+  },
+  "ICPC/swerc2024_H/init.yml": {
+    "bytes": 411,
+    "git_blob_sha1": "56e92322d685ce23d4602adb2aaaae059fad822a"
+  },
+  "ICPC/swerc2024_I/data.zip": {
+    "bytes": 10113404,
+    "sha256": "c20afe7604a9cfd1083b8e82469ca270a98e22b6242061a3b17452f2966c3710"
+  },
+  "ICPC/swerc2024_I/init.yml": {
+    "bytes": 861,
+    "git_blob_sha1": "d5c5c360e4151b939ff331f08d42a4b88a7ca159"
+  },
+  "ICPC/swerc2024_J/data.zip": {
+    "bytes": 3974,
+    "sha256": "e2cc8eec5b654a1e63e45dcde96c75d94e65f07814d817ad32cb52c8d2461062"
+  },
+  "ICPC/swerc2024_J/init.yml": {
+    "bytes": 561,
+    "git_blob_sha1": "133f3ec7e4e81f27b0c3459ad82bacbcae7aad56"
+  },
+  "ICPC/swerc2024_K/data.zip": {
+    "bytes": 16740,
+    "sha256": "217893ccc5b5837579815e547c4574f5150fe8e85644a4aadc554dc5fd6dcfc9"
+  },
+  "ICPC/swerc2024_K/init.yml": {
+    "bytes": 1743,
+    "git_blob_sha1": "3a0adc703405bbcfd6fdfb34707c43b07eeabad0"
+  },
+  "ICPC/swerc2024_L/data.zip": {
+    "bytes": 11919,
+    "sha256": "72efdd1fa8713ac05b214919e31f0ec792f0d836b37649a24afc4b612ffd66c6"
+  },
+  "ICPC/swerc2024_L/init.yml": {
+    "bytes": 2992,
+    "git_blob_sha1": "ee7707402cca8582880ad56ea30cd968789d380c"
+  },
+  "ICPC/swerc2024_L/output_validators/car_validator/validate.cc": {
+    "bytes": 2877,
+    "git_blob_sha1": "800fe78ea3cd0fa4c03317f80f37aee37db0969c"
+  },
+  "ICPC/swerc2024_L/output_validators/car_validator/validate.h": {
+    "bytes": 4481,
+    "git_blob_sha1": "fe5da0fc3b53096956209b42f7d2723f7421d6c2"
+  },
+  "ICPC/swerc2024_M/data.zip": {
+    "bytes": 2267,
+    "sha256": "d53a25b3bf427dd423122ed5ce2863e5d6bec83f45d2812209c61df035274efb"
+  },
+  "ICPC/swerc2024_M/init.yml": {
+    "bytes": 461,
+    "git_blob_sha1": "35fe74b966f61e8531ff0e9aeae2f2767c8197d6"
+  },
+  "prompts/full.jsonl": {
+    "bytes": 1826440,
+    "git_blob_sha1": "84b6170949a89f94374824ae353e63c6b682257d"
+  }
+}
